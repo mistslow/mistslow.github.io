@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>get you</title>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
+</head>
+
+<body>
+    <div id="btn" style="position:absolute;width:100%;height:100%;" data-clipboard-text="You have been Hacked!!">
+        <span>Hello ~ I have been push some to your clipboard:)</span>
+    </div>
+    <script>
+        var btn = document.getElementById('btn');
+        var clipboard = new Clipboard(btn);
+    </script>
+
+</body>
+
+</html>
